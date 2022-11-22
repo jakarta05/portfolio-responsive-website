@@ -1,99 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap’);
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
+•	{
+	Margin: 0;
+	Padding: 0;
+	Box-sizing: border-box;
+	Text-decoration: none;
 }
 
-html {
-	scroll-behavior: smooth;
+Html {
+	Scroll-behavior: smooth;
 }
 
 .max-width {
-	max-width: 1300px;
-	padding: 0 80px;
-	margin: auto;
+	Max-width: 1300px;
+	Padding: 0 80px;
+	Margin: auto;
 }
 
-/*NAVBAR STYLING*/
+/NAVBAR STYLING/
 
 .navbar {
-	position: fixed;
-	width: 100%;
+	Position: fixed;
+	Width: 100%;
 	z-index: 999;
 	padding: 30px 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: ‘Ubuntu’, sans-serif;
 	transition: all 0.3s ease;
 }
 
 .navbar.sticky {
-	padding: 15px 0;
-	background: blueviolet;
+	Padding: 15px 0;
+	Background: blueviolet;
 }
 
 .navbar .max-width {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	Display: flex;
+	Align-items: center;
+	Justify-content: space-between;
 }
 
 .navbar .logo a {
-	font-size: 35px;
-	font-weight: 600;
-	color: #fff;
+	Font-size: 35px;
+	Font-weight: 600;
+	Color: #fff;
 }
 
 .navbar .logo a span {
-	color: blueviolet;
-	transition: all 0.3s ease;
+	Color: blueviolet;
+	Transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
-	color: #fff;
+	Color: #fff;
 }
 
 .navbar .menu li {
-	list-style: none;
-	display: inline-block;
+	List-style: none;
+	Display: inline-block;
 }
 
 .navbar .menu li a {
-	color: #fff;
-	font-size: 18px;
-	font-weight: 500;
-	margin-left: 25px;
-	transition: color 0.3s ease;
+	Color: #fff;
+	Font-size: 18px;
+	Font-weight: 500;
+	Margin-left: 25px;
+	Transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover {
-	color: blueviolet;
+	Color: blueviolet;
 }
 
 .navbar.sticky .menu li a:hover {
-	color: Black;
+	Color: Black;
 }
 
-/*Menu Btn Styling*/
+/Menu Btn Styling/
 
 .menu-btn {
-	color: #fff;
-	font-size: 23px;
-	cursor: pointer;
-	display: none;
+	Color: #fff;
+	Font-size: 23px;
+	Cursor: pointer;
+	Display: none;
 }
 
 .scroll-up-btn {
-	position: fixed;
-	height: 45px;
-	width: 42px;
-	background: crimson;
-	right: 30px;
-	bottom: 10px;
-	text-align: center;
-	line-height: 45px;
-	color: #fff;
+	Position: fixed;
+	Height: 45px;
+	Width: 42px;
+	Background: crimson;
+	Right: 30px;
+	Bottom: 10px;
+	Text-align: center;
+	Line-height: 45px;
+	Color: #fff;
 	z-index: 9999;
 	font-size: 30px;
 	border-radius: 6px;
@@ -104,614 +104,614 @@ html {
 }
 
 .scroll-up-btn.show {
-	bottom: 30px;
-	opacity: 1;
-	pointer-events: none;
+	Bottom: 30px;
+	Opacity: 1;
+	Pointer-events: none;
 }
 
-/*Styling Home Section*/
+/Styling Home Section/
 
 .home {
-	display:  flex;
-	background: url("images/Banner.jpg") no-repeat center;
-	height: 100vh;
-	color: #fff;
-	min-height: 500px;
-	font-family: 'Ubuntu', sans-serif;
+	Display:  flex;
+	Background: url(“banner.jpg”) no-repeat center;
+	Height: 100vh;
+	Color: #fff;
+	Min-height: 500px;
+	Font-family: ‘Ubuntu’, sans-serif;
 }
 
 .home .max-width {
-	margin: auto 0 auto 40px;
+	Margin: auto 0 auto 40px;
 }
 
 .home .home-content .text-1 {
-	font-size: 27px;
+	Font-size: 27px;
 }
 
 .home .home-content .text-2 {
-	font-size: 75px;
-	font-weight: 600;
-	margin: -3px;
+	Font-size: 75px;
+	Font-weight: 600;
+	Margin: -3px;
 }
 
 .home .home-content .text-3 {
-	font-size: 40px;
-	margin: 5px 0;
+	Font-size: 40px;
+	Margin: 5px 0;
 }
 
 .home .home-content .text-3 span {
-	color: darkgoldenrod;
-	font-weight: 500;
+	Color: darkgoldenrod;
+	Font-weight: 500;
 }
 
 .home .home-content a {
-	display: inline-block;
-	background: blueviolet;
-	color: #fff;
-	font-size: 25px;
-	padding: 12px 36px;
-	margin-top: 20px;
-	broder-radius: 6px;
-	border: 2px solid blueviolet;
-	transition: all 0.3s ease;
+	Display: inline-block;
+	Background: blueviolet;
+	Color: #fff;
+	Font-size: 25px;
+	Padding: 12px 36px;
+	Margin-top: 20px;
+	Broder-radius: 6px;
+	Border: 2px solid blueviolet;
+	Transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-	color: darkgoldenrod;
-	background: none;
+	Color: darkgoldenrod;
+	Background: none;
 }
 
-/*All Similiar Content Styling Code*/
-section {
-	padding: 100px 0;
+/All Similar Content Styling Code/
+Section {
+	Padding: 100px 0;
 }
 
 .about, .services, .skills, .teams, .contact {
-	font-family: 'Poppins', sans-serif;
+	Font-family: ‘Poppins’, sans-serif;
 }
 
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
+	Display: flex;
+	Flex-wrap: wrap;
+	Align-items: center;
+	Justify-content: space-between;
 }
 
-section .title {
-	position: relative;
-	text-align: center;
-	font-size: 40px;
-	font-weight: 500;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
-	font-family: 'Ubuntu', sans-serif;
+Section .title {
+	Position: relative;
+	Text-align: center;
+	Font-size: 40px;
+	Font-weight: 500;
+	Margin-bottom: 60px;
+	Padding-bottom: 20px;
+	Font-family: ‘Ubuntu’, sans-serif;
 }
 
-section .title::before {
-	content: "";
-	position: absolute;
-	bottom :0px;
-	left: 50%;
-	width: 180px;
-	height: 3px;
-	background: #111;
-	transform: translateX(-50%);
+Section .title::before {
+	Content: “”;
+	Position: absolute;
+	Bottom :0px;
+	Left: 50%;
+	Width: 180px;
+	Height: 3px;
+	Background: #111;
+	Transform: translateX(-50%);
 }
 
-section .title::after {
-	position: absolute;
-	bottom: -12px;
-	left: 50%;
-	font-size: 20px;
-	color: blueviolet;
-	padding: 5px;
-	background: #fff;
-	transform: translateX(-50%);
+Section .title::after {
+	Position: absolute;
+	Bottom: -12px;
+	Left: 50%;
+	Font-size: 20px;
+	Color: blueviolet;
+	Padding: 5px;
+	Background: #fff;
+	Transform: translateX(-50%);
 }
 
-/*about section styling*/
+/about section styling/
 
 .about .title::after {
-	content: "who I am";
+	Content: “who I am”;
 }
 
 .about .about-content .left {
-	width: 45%;
+	Width: 45%;
 }
 
 .about .about-content .left img {
-	height: 400px;
-	width: 400px;
-	object-fit: cover;
-	border-radius: 6px;
+	Height: 400px;
+	Width: 400px;
+	Object-fit: cover;
+	Border-radius: 6px;
 }
 
 .about .about-content .right {
-	width: 55%;
+	Width: 55%;
 }
 
 .about .about-content .right .text {
-	font-size: 25px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	Font-size: 25px;
+	Font-weight: 600;
+	Margin-bottom: 10px;
 }
 
 .about .about-content .right .text span{
-	color: royalblue;
+	Color: royalblue;
 }
 
 .about .about-content .right p {
-	text-align: justify;
+	Text-align: justify;
 }
 
 .about .about-content .right a {
-	display: inline-block;
-	background: blueviolet;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 500;
-	padding: 10px 30px;
-	margin-top: 20px;
-	border-radius: 6px;
-	border: 2px solid blueviolet;
-	transition: all 0.3s ease;
+	Display: inline-block;
+	Background: blueviolet;
+	Color: #fff;
+	Font-size: 20px;
+	Font-weight: 500;
+	Padding: 10px 30px;
+	Margin-top: 20px;
+	Border-radius: 6px;
+	Border: 2px solid blueviolet;
+	Transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-	color: royalblue;
-	background: none;
+	Color: royalblue;
+	Background: none;
 }
 
-/*Section Services Styling*/
+/Section Services Styling/
 
 .services, .teams {
-	color: #fff;
-	background: #111;
+	Color: #fff;
+	Background: #111;
 }
 
 .services .title::before,
 .teams .title::before {
-	background: #fff;
+	Background: #fff;
 }
 
 .services .title::after,
 .teams .title::after {
-	background: #111;
-	content: "what i provide";
+	Background: #111;
+	Content: “what I provide”;
 }
 
 .services .serv-content .card {
-	width: calc(33% - 20px);
-	background: #222;
-	text-align: center;
-	border-radius: 6px;
-	padding: 20px 25px;
-	cursor: pointer;
-	transition: all 0.3s ease;
+	Width: calc(33% - 20px);
+	Background: #222;
+	Text-align: center;
+	Border-radius: 6px;
+	Padding: 20px 25px;
+	Cursor: pointer;
+	Transition: all 0.3s ease;
 }
 
 .services .serv-content .card:hover {
-	background: blueviolet;
+	Background: blueviolet;
 }
 
 .services .serv-content .card .box {
-	transition: all 0.3s ease;
+	Transition: all 0.3s ease;
 }
 
 .services .serv-content .card:hover .box{
-	transform: scale(1.05);
+	Transform: scale(1.05);
 }
 
-.services .serv-content .card i {
-	font-size: 50px;
-	color: royalblue;
-	transition: color 0.3s ease;
+.services .serv-content .card I {
+	Font-size: 50px;
+	Color: royalblue;
+	Transition: color 0.3s ease;
 }
 
-.services .serv-content .card:hover i {
-	color: #fff;
+.services .serv-content .card:hover I {
+	Color: #fff;
 }
 
 .services .serv-content .card .text {
-	font-size: 25px;
-	font-weight: 500;
-	margin: 10px 0 7px 0;
+	Font-size: 25px;
+	Font-weight: 500;
+	Margin: 10px 0 7px 0;
 }
 
-/*Pertemuan 30 Sept 2022*/
-/*Skills Section Styling*/
+/Pertemuan 30 Sept 2022/
+/Skills Section Styling/
 
 .skills .title::after {
-	content: "what i know";
+	Content: “what I know”;
 }
 
 .skills .skills-content .column {
-	width: calc(50% - 30px);
+	Width: calc(50% - 30px);
 }
 
 .skills .skills-content .left .text {
-	font-size: 25px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	Font-size: 25px;
+	Font-weight: 600;
+	Margin-bottom: 10px;
 }
 
 .skills .skills-content .left p {
-	text-align: justify;
+	Text-align: justify;
 }
 
-/*Pertemuan 7 Oktober 2022*/
+/Pertemuan 7 Oktober 2022/
 .skills .skills-content .left a {
-	display: inline-block;
-	background: blueviolet;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 8px 16px;
-	margin-top: 20px;
-	border-radius: 6px;
-	border: 2px solid blueviolet;
-	transition: all 0.3s ease;
+	Display: inline-block;
+	Background: blueviolet;
+	Color: #fff;
+	Font-size: 18px;
+	Font-weight: 500;
+	Padding: 8px 16px;
+	Margin-top: 20px;
+	Border-radius: 6px;
+	Border: 2px solid blueviolet;
+	Transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover {
-	color: darkblue;
-	background: none;
+	Color: darkblue;
+	Background: none;
 }
 
 .skills .skills-content .right .bars {
-	margin-bottom: 15px;
+	Margin-bottom: 15px;
 }
 
 .skills .skills-content .right .info {
-	display: flex;
-	margin-bottom: 15px;
-	align-items: center;
-	justify-content: space-between;
+	Display: flex;
+	Margin-bottom: 15px;
+	Align-items: center;
+	Justify-content: space-between;
 }
 
 .skills .skills-content .right span {
-	font-weight: 500;
-	font-size: 18px;
+	Font-weight: 500;
+	Font-size: 18px;
 }
 
 .skills .skills-content .right .line {
-	height: 5px;
-	width: 100%;
-	background: lightgray;
-	position: relative;
+	Height: 5px;
+	Width: 100%;
+	Background: lightgray;
+	Position: relative;
 }
 
 .skills .skills-content .right .line::before {
-	content: "";
-	position: absolute;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: darkblue;
+	Content: “”;
+	Position: absolute;
+	Height: 100%;
+	Left: 0;
+	Top: 0;
+	Background: darkblue;
 }
 
 .skills .skills-content .right .html::before {
-	width: 70%;
+	Width: 70%;
 }
 
 .skills .skills-content .right .css::before {
-	width: 60%;
+	Width: 60%;
 }
 
 .skills .skills-content .right .javascript::before {
-	width: 50%;
+	Width: 50%;
 }
 
 .skills .skills-content .right .illustrating::before {
-	width: 70%;
+	Width: 70%;
 }
 
 .skills .skills-content .right .design::before {
-	width: 60%;
+	Width: 60%;
 }
-/*Closed Pertemuan 7 Oktober 2022*/
-/*Pertemuan 14 Oktober 2022*/
+/Closed Pertemuan 7 Oktober 2022/
+/Pertemuan 14 Oktober 2022/
 .teams .title::after {
-	content: "who with me";
+	Content: “who with me”;
 }
 
 .teams .carousel .card {
-	background: #222;
-	border-radius: 6px;
-	padding: 25px 35px;
-	text-align: center;
-	transition: all 0.3s ease;
+	Background: #222;
+	Border-radius: 6px;
+	Padding: 25px 35px;
+	Text-align: center;
+	Transition: all 0.3s ease;
 }
 
 .teams .carousel .card:hover {
-	background: blueviolet;
+	Background: blueviolet;
 }
 
 .teams .carousel .card .box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	Display: flex;
+	Flex-direction: column;
+	Align-items: center;
+	Justify-content: center;
 }
 
 .teams .carousel .card:hover .box {
-	transform: scale(1.05);
+	Transform: scale(1.05);
 }
 
 .teams .carousel .card .text {
-	font-size: 25px;
-	font-weight: 500;
-	margin: 10px 0 7px 0;
+	Font-size: 25px;
+	Font-weight: 500;
+	Margin: 10px 0 7px 0;
 }
 
 .teams .carousel .card img {
-	height: 150px;
-	width: 150px;
-	object-fit: cover;
-	border-radius: 50%;
-	border: 5px solid blueviolet;
+	Height: 150px;
+	Width: 150px;
+	Object-fit: cover;
+	Border-radius: 50%;
+	Border: 5px solid blueviolet;
 }
 
 .teams .carousel .card:hover img {
-	border-color: #fff;
+	Border-color: #fff;
 }
 
 .owl-dots {
-	text-align: center;
-	margin-top: 20px;
+	Text-align: center;
+	Margin-top: 20px;
 }
 
 .owl-dot {
-	height: 13px;
-	width: 13px;
-	margin: 0 5px;
-	outline: none!important;
-	border-radius: 50%;
-	border: 2px solid blueviolet!important;
+	Height: 13px;
+	Width: 13px;
+	Margin: 0 5px;
+	Outline: none!important;
+	Border-radius: 50%;
+	Border: 2px solid blueviolet!important;
 
 }
 
 .owl-dot.active {
-	width: 35px;
-	border-radius: 14px;
+	Width: 35px;
+	Border-radius: 14px;
 }
 
 .owl-dot.active,
 .owl-dot:hover {
-	background: blueviolet!important;
+	Background: blueviolet!important;
 }
-/*Closed Pertemuan 14 Oktober 2022*/
-/*Pertemuan 21 Oktober 2022*/
+/Closed Pertemuan 14 Oktober 2022/
+/Pertemuan 21 Oktober 2022/
 .contact .title::after {
-	content: "get in touch";
+	Content: “get in touch”;
 }
 
 .contact .contact-content .column {
-	width: calc(50% - 30px);
+	Width: calc(50% - 30px);
 }
 
 .contact .contact-content .text {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	Font-size: 20px;
+	Font-weight: 600;
+	Margin-bottom: 10px;
 }
 
 .contact .contact-content .left p {
-	text-align: justify;
+	Text-align: justify;
 }
 
 .contact .contact-content .left .icons {
-	margin: 10px;
+	Margin: 10px;
 }
 
 .contact .contact-content .row {
-	display: flex;
-	height: 65px;
-	align-items: center;
+	Display: flex;
+	Height: 65px;
+	Align-items: center;
 }
 
 .contact .contact-content .row .info {
-	margin-left: 30px;
+	Margin-left: 30px;
 }
 
-.contact .contact-content .row i {
-	font-size: 25px;
-	color: black;
+.contact .contact-content .row I {
+	Font-size: 25px;
+	Color: black;
 }
 
 .contact .contact-content .info .head {
-	font-weight: 500;
+	Font-weight: 500;
 }
 
 .contact .contact-content .info .sub-title {
-	color: darkblue;
+	Color: darkblue;
 }
 
 .contact .right form .fields {
-	display: flex;
+	Display: flex;
 }
 
 .contact .right form .field,
 .contact .right form .fields .field {
-	height: 45px;
-	width: 100%;
-	margin-bottom: 15px;
+	Height: 45px;
+	Width: 100%;
+	Margin-bottom: 15px;
 }
 
 .contact .right form .textarea {
-	height: 80px;
-	width: 100%;
+	Height: 80px;
+	Width: 100%;
 }
 
 .contact .right form .name {
-	margin-left: 10px;
+	Margin-left: 10px;
 }
 
 .contact .right form .email {
-	margin-right: 10px;
+	Margin-right: 10px;
 }
 
 .contact .right form .field input,
 .contact .right form .textarea textarea {
-	height: 100%;
-	width: 100%;
-	border: 1px solid lightgray;
-	border-radius: 6px;
-	outline: none;
-	padding: 0 15px;
-	font-size: 17px;
-	font-family: 'Poppins' sans-serif;
+	Height: 100%;
+	Width: 100%;
+	Border: 1px solid lightgray;
+	Border-radius: 6px;
+	Outline: none;
+	Padding: 0 15px;
+	Font-size: 17px;
+	Font-family: ‘Poppins’ sans-serif;
 }
 
 .contact .right form .textarea textarea {
-	padding-top: 10px;
-	resize: none;
+	Padding-top: 10px;
+	Resize: none;
 }
 
 .contact .right form .button {
-	height: 47px;
-	width: 170px;
+	Height: 47px;
+	Width: 170px;
 }
 
 .contact .right form .button button {
-	width: 100%;
-	height: 100%;
-	border: 2px solid blueviolet;
-	background: blueviolet;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 500;
-	border-radius: 6px;
-	cursor: pointer;
-	transition: all 0.3 ease;
+	Width: 100%;
+	Height: 100%;
+	Border: 2px solid blueviolet;
+	Background: blueviolet;
+	Color: #fff;
+	Font-size: 20px;
+	Font-weight: 500;
+	Border-radius: 6px;
+	Cursor: pointer;
+	Transition: all 0.3 ease;
 }
 
 .contact .right form .button button:hover {
-	color: black;
-	background: none;
+	Color: black;
+	Background: none;
 }
 
-/*Footer Styling*/
-footer{
-	background: #111;
-	padding: 20px 23px;
-	color: #fff;
-	text-align: center;
+/Footer Styling/
+Footer{
+	Background: #111;
+	Padding: 20px 23px;
+	Color: #fff;
+	Text-align: center;
 }
 
-footer span a {
-	color: blueviolet;
-	text-decoration: none;
+Footer span a {
+	Color: blueviolet;
+	Text-decoration: none;
 }
 
-footer span a:hover {
-	text-decoration: underline;
+Footer span a:hover {
+	Text-decoration: underline;
 }
 
 
-/*Responsive Media Querty Start*/
+/Responsive Media Querty Start/
 
 @media (max-width: 1300px) {
 	.home.max-wdith {
-		margin-left: 0px;
+		Margin-left: 0px;
 	}
 }
 
 @media (max-width: 1104px) {
 	.about.about-content .left img {
-		height: 350px;
-		width: 350px;
+		Height: 350px;
+		Width: 350px;
 	}
 }
 
 @media (max-width: 991px) {
 	.max-width {
-		padding: 0 50px;
+		Padding: 0 50px;
 	}
 }
 
 @media (max-width: 947px) {
 	.menu-btn {
-		display: block;
+		Display: block;
 		z-index: 999;
 	}
 
 	.menu-btn i.active:before {
-		content: "\f00d";
+		Content: “\f00d”;
 	}
 
 	.navbar .menu {
-		position: fixed;
-		height: 100vh;
-		width: 100%;
-		left: -100%;
-		top: 0;
-		background: #111;
-		text-align: center;
-		padding-top: 80px;
-		transition: all 0.3s ease;
+		Position: fixed;
+		Height: 100vh;
+		Width: 100%;
+		Left: -100%;
+		Top: 0;
+		Background: #111;
+		Text-align: center;
+		Padding-top: 80px;
+		Transition: all 0.3s ease;
 	}
 
 	.navbar .menu.active {
-		left: 0;
+		Left: 0;
 	}
 
 	.navbar .menu li {
-		display: block;
+		Display: block;
 	}
 
 	.navbar .menu li a {
-		display: inline-block;
-		margin: 20px 0;
-		font-size: 25px;
+		Display: inline-block;
+		Margin: 20px 0;
+		Font-size: 25px;
 	}
 
 	.home .home-content .text-2 {
-		font-size: 70px;
+		Font-size: 70px;
 	}
 
 	.home .home-content .text-3 {
-		font-size: 35px;
+		Font-size: 35px;
 	}
 
 	.home .home-content a {
-		font-size: 23px;
-		padding: 10px 30px;
+		Font-size: 23px;
+		Padding: 10px 30px;
 	}
 
 	.max-width {
-		max-width: 800px;
+		Max-width: 800px;
 	}
 
 	.about .about-content .left {
-		display: flex;
-		justify-content: center;
-		margin: 0 auto 60px;
+		Display: flex;
+		Justify-content: center;
+		Margin: 0 auto 60px;
 	}
 
 	.about .about-content .right {
-		flex: 100%;
+		Flex: 100%;
 	}
 
 }
 
 @media (max-width: 690px) {
 	.max-width {
-		padding: 0 23px;
+		Padding: 0 23px;
 	}
 
 	.home .home-content .text-2 {
-		font-size: 60px;
+		Font-size: 60px;
 	}
 
 	.home .home-content .text-3 {
-		font-size: 32px;
+		Font-size: 32px;
 	}
 
 	.home .home-content a {
-		font-size: 20px;
+		Font-size: 20px;
 	}
 }
